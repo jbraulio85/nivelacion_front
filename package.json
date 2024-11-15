@@ -18,7 +18,7 @@
     "@mui/material": "^5.16.6",
     "antd": "^5.20.0",
     "autoprefixer": "^10.4.19",
-    "axios": "^1.7.2",
+    "axios": "^1.7.5",
     "frontend": "file:",
     "postcss": "^8.4.40",
     "prop-types": "^15.8.1",

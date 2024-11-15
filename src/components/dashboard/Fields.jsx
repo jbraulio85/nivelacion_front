@@ -25,7 +25,7 @@ export const Fields = () => {
 
   const handleClickOpen = (field) => {
     const userDetails = localStorage.getItem("user");
-    
+    console.log(field)
     if (userDetails) {
       setSelectedField(field);
       setOpen(true);
@@ -57,7 +57,7 @@ export const Fields = () => {
                     <CardMedia
                       component="img"
                       height="140"
-                      image={`https://res.cloudinary.com/dcrgnm3ud/image/upload/v123456789/${field.photo}`}
+                      image={`http://localhost:3000/sportsFieldManager/v1/field/getFieldImg/${field.photo}`}
                       alt={field.fieldName}
                       style={{ objectFit: "cover" }}
                     />
